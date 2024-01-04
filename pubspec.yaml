@@ -1,0 +1,55 @@
+name: jsonplaceholder_example
+description: A simple Flutter app using jsonplaceholder.typicode.com's API
+
+publish_to: "none"
+
+version: 0.0.0+1
+
+environment:
+  sdk: ">=2.18.4 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  http: ^0.13.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.11.0
+  flutter_native_splash: ^2.2.15
+
+flutter:
+  uses-material-design: true
+
+# flutter_launcher_icons config
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/icon.png"
+  remove_alpha_ios: true
+  web:
+    generate: true
+    image_path: "assets/icons/icon.png"
+  macos:
+    generate: true
+    image_path: "assets/icons/icon.png"
+  windows:
+    generate: true
+    image_path: "assets/icons/icon.png"
+
+# flutter_native_splash config
+flutter_native_splash:
+  color: "#FFFFFF"
+  color_dark: "#001473"
+  image: "assets/images/splash-image-light.png"
+  image_dark: "assets/images/splash-image-dark.png"
+  android_12:
+    color: "#FFFFFF"
+    color_dark: "#001473"
+    image: "assets/images/splash-image-light.png"
+    image_dark: "assets/images/splash-image-dark.png"
